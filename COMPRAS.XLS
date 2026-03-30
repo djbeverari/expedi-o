@@ -1,0 +1,690 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<style type="text/css">
+<!--tr
+	{mso-height-source:auto;}
+td
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc151D2A0000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc14ABFC0000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:bold;
+	font-style:normal;
+	text-underline-style:none;
+	background:#F0F0F0;
+	color:black;
+	text-align:general;
+	vertical-align:top;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc14ABFD0000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:normal;
+	font-style:normal;
+	text-underline-style:none;
+	background:#F0F0F0;
+	color:black;
+	text-align:left;
+	vertical-align:top;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc14ABFE0000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:Standard;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:right;
+	vertical-align:top;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc151D270000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:bold;
+	font-style:normal;
+	text-underline-style:none;
+	background:#D5D5EA;
+	color:#0000A0;
+	text-align:general;
+	vertical-align:top;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc151D280000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc151D290000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc151D2E0000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc1520820000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc1520830000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc1520840000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc1520850000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc1520860000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+.wc1520870000000000
+	{white-space:nowrap;
+	font-family:Arial;
+	mso-number-format:General;
+	font-size:10pt;
+	font-weight:auto;
+	font-style:auto;
+	text-decoration:auto;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-color-source:auto;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	mso-protection:locked;}
+-->
+</style>
+</head>
+
+<body>
+
+<table cellpadding=2 cellspacing=0 x:str>
+ <col width="201">
+ <col width="121">
+ <col width="87">
+ <col width="62">
+ <col width="192">
+ <col width="86">
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc151D270000000000 x:str="Relatório Expedição Compras"
+  colspan="6">Relatório Expedição Compras</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFC0000000000 x:str="Descrição da Cor ">Descrição da Cor </td>
+  <td class=wc14ABFC0000000000 x:str="Linha">Linha</td>
+  <td class=wc14ABFC0000000000 x:str="Tipo Produto">Tipo Produto</td>
+  <td class=wc1520820000000000 colspan="3" rowspan="2">&nbsp;</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="Tudo">Tudo</td>
+  <td class=wc14ABFD0000000000 x:str="Tudo">Tudo</td>
+  <td class=wc14ABFD0000000000 x:str="Tudo">Tudo</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc151D2E0000000000 colspan="5">&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFC0000000000 x:str="Filial A Entregar">Filial A Entregar</td>
+  <td class=wc14ABFC0000000000 x:str="Subgrupo Produto">Subgrupo Produto</td>
+  <td class=wc14ABFC0000000000 x:str="Fornecedor">Fornecedor</td>
+  <td class=wc14ABFC0000000000 x:str="Produto">Produto</td>
+  <td class=wc14ABFC0000000000 x:str="Descrição do Produto">Descrição do
+  Produto</td>
+  <td class=wc14ABFD0000000000 x:str="Qtde Entregar">Qtde Entregar</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="E-COMMERCE">E-COMMERCE</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="74">74,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 03 - CENTRO">LOJA 03 - CENTRO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="100">100,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 04 - MAUA">LOJA 04 - MAUA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="284">284,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 05 - GUARULHOS">LOJA 05 - GUARULHOS</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="240">240,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 06 - SHOP CPO LIMPO">LOJA 06 - SHOP
+  CPO LIMPO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="338">338,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 07 - SHOP ARICANDUVA">LOJA 07 - SHOP
+  ARICANDUVA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="333">333,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 09 - OSASCO">LOJA 09 - OSASCO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="463">463,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 14 - SAO MIGUEL">LOJA 14 - SAO
+  MIGUEL</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="436">436,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 16 - SHOP ARICANDUVA">LOJA 16 - SHOP
+  ARICANDUVA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="174">174,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 17 - BRAS">LOJA 17 - BRAS</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="220">220,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 21 - SBC">LOJA 21 - SBC</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="399">399,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 23 - SHOP ITAQUERA">LOJA 23 - SHOP
+  ITAQUERA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="392">392,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 26 - GUARULHOS">LOJA 26 - GUARULHOS</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="288">288,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 28 - JUNDIAÍ">LOJA 28 - JUNDIAÍ</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="278">278,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 29 - BRAS">LOJA 29 - BRAS</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="200">200,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 31-SHOP OSASCO PLAZA">LOJA 31-SHOP
+  OSASCO PLAZA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="200">200,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 32 - SHOP BONSUCESSO">LOJA 32 - SHOP
+  BONSUCESSO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="221">221,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 33 - S.INTERNACIONAL">LOJA 33 -
+  S.INTERNACIONAL</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="351">351,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 34 - SHOPPING PENHA">LOJA 34 -
+  SHOPPING PENHA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="169">169,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 36 - SHOP ARICANDUVA">LOJA 36 - SHOP
+  ARICANDUVA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="248">248,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 37 - SHOP INTERLAGOS">LOJA 37 - SHOP
+  INTERLAGOS</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="315">315,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 38 - CENTRAL PLAZA">LOJA 38 -
+  CENTRAL PLAZA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="161">161,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 40 - SANTO AMARO">LOJA 40 - SANTO
+  AMARO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="400">400,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 41 - CENTRO">LOJA 41 - CENTRO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="119">119,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 42 - GUARULHOS">LOJA 42 - GUARULHOS</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="240">240,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 44 - LAPA">LOJA 44 - LAPA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="383">383,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 45 - SANTANA">LOJA 45 - SANTANA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="212">212,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 46 - SANTO ANDRÉ">LOJA 46 - SANTO
+  ANDRÉ</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="385">385,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 47 - SJC">LOJA 47 - SJC</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="185">185,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 48 - SHOPPING UNIAO">LOJA 48 -
+  SHOPPING UNIAO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="299">299,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 49 - DIADEMA">LOJA 49 - DIADEMA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="151">151,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 50 - SHOP LARGO 13">LOJA 50 - SHOP
+  LARGO 13</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="150">150,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 51 - LAPA">LOJA 51 - LAPA</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="140">140,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 52 - BRAS">LOJA 52 - BRAS</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="166">166,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 53 - BOM RETIRO">LOJA 53 - BOM
+  RETIRO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="282">282,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 54 - SHOP TATUAPE">LOJA 54 - SHOP
+  TATUAPE</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="351">351,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 55 - SUZANO">LOJA 55 - SUZANO</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="140">140,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 56 - SHOPPING D">LOJA 56 - SHOPPING
+  D</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="376">376,00</td>
+ </tr>
+ <tr height="17" style='mso-height-alt:255'>
+  <td class=wc14ABFD0000000000 x:str="LOJA 57 - MOGI">LOJA 57 - MOGI</td>
+  <td class=wc14ABFD0000000000 x:str="MANGA LONGA">MANGA LONGA</td>
+  <td class=wc14ABFD0000000000 x:str="BITEX">BITEX</td>
+  <td class=wc14ABFD0000000000 x:str="05.01.109">05.01.109</td>
+  <td class=wc14ABFD0000000000 x:str="CAMISA FIBRA DE BAMBU ML">CAMISA FIBRA DE
+  BAMBU ML</td>
+  <td class=wc14ABFE0000000000 x:num="105">105,00</td>
+ </tr>
+</table>
+
+</body>
+
+</html>
